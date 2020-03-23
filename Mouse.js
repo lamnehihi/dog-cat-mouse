@@ -1,9 +1,9 @@
 function Mouse(name) {
     this.name = name;
-    this.isAlive = false;
+    this.isAlive = true;
 }
 
-Mouse.prototype.die() = function() {
+Mouse.prototype.die = function() {
     this.isAlive = false;
 }
 
